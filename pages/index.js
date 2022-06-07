@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import { useState } from 'react';
 import Navbar from '../components/navbar';
 import Heroes from '../components/heroes';
 import Footer from '../components/footer';
@@ -11,21 +10,20 @@ import NftDetail from '../components/nft-detail';
 
 
 function App() {
-  const [accounts, setAccounts] = useState([]);
   return (
     <div className="bg-black">
       <Head>
-        <title>Mint AxoGenesis</title>
+        <title>AxoGenesis</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <Banner />
-      <Navbar accounts={accounts} setAccounts={setAccounts}/>
-      <Heroes accounts={accounts} setAccounts={setAccounts}/>
-      <Images />
+      <Banner/>
+      <Navbar/>
+      <Heroes/>
+      <Images/>
       <NftDetail />
-      <Team />
-      <Faq />
-      <Footer />
+      <Team/>
+      <Faq/>
+      <Footer/>
     </div>
   );
 }

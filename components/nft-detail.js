@@ -69,7 +69,7 @@ export default function NftDetail() {
                         className={({ active }) =>
                           classNames(
                             property
-                              ? 'bg-rose shadow-sm cursor-pointer font-PhantomRush text-4xl text-maastricht'
+                              ? 'bg-rose shadow-sm cursor-pointer font-PhantomRush text-4xl text-rose'
                               : 'text-gray-200 cursor-not-allowed',
                             active ? 'ring-2 ring-indigo-500' : '',
                             'group relative rounded-md py-3 px-4 flex items-center justify-center focus:outline-none sm:flex-1 md:flex-1'
