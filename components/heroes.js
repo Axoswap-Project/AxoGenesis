@@ -5,9 +5,9 @@ import ExportedImage from 'next-image-export-optimizer'
 const contents = [
   {
   id: 1,  
-  title: 'SPACE',
-  pTitle: 'BOO',
-  mainText: 'Space Boo is a collection of 8888 programmatically random generated NFTs that reside in the Ethereum blockchain and travel through space in the multiverse.',
+  title: 'Axo',
+  pTitle: 'Genesis',
+  mainText: 'In a lake full of opportunities, a lovable Axolotl smiles at you. Keen, happy, and intelligent, it hints at you to welcome him home. AxoGenesis Axolotls has a perfect aquatic friend for every trader. Mint yours today to access an exclusive Discord community, generous perks and benefits, and a lovable art piece that celebrates your early support of our platform. Holders of AxoGenesis NFTs will also receive airdropped Axotoken on the day of the Axoswap decentralized exchange (dEx).',
   howMany: 'How many SpaceBoo do you want?',
   }
 ]
