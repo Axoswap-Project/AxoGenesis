@@ -30,7 +30,7 @@ const contents = [
               <p className="mt-3 pt-3 sm:mt-4 font-justanotherhand text-4xl text-center sm:text-left lg:text-left text-rose">{content.howMany}</p>
                   <div className="pt-3 sm:flex">
                   <button className="text-center mr-3 md:mb-0 sm:mb-3 mb-3 lg:mb-0 font-justanotherhand text-5xl inline-flex w-full py-3 px-4 rounded-md shadow bg-fuschia text-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900 items-center"><Supply className="h-8 mr-3"/>total supply: 3333</button> 
-                  <button className="text-center font-justanotherhand text-5xl inline-flex w-full py-3 px-4 rounded-md shadow bg-fuschia text-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900 items-center"><Ethereum className="h-10 mr-3"/>mint price: 50 MATIC</button> 
+                  <button className="text-center font-justanotherhand text-5xl inline-flex w-full py-3 px-4 rounded-md shadow bg-fuschia text-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900 items-center"><Ethereum className="h-10 mr-3"/>mint price: 5 MATIC</button> 
                   </div>
               </div>
             </div>
