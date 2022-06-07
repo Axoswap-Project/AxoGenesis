@@ -69,7 +69,7 @@ export default function NftDetail() {
                         className={({ active }) =>
                           classNames(
                             property
-                              ? 'bg-rose shadow-sm cursor-pointer font-PhantomRush text-4xl text-rose'
+                              ? 'bg-rose shadow-sm cursor-pointer font-PhantomRush text-4xl text-black'
                               : 'text-gray-200 cursor-not-allowed',
                             active ? 'ring-2 ring-indigo-500' : '',
                             'group relative rounded-md py-3 px-4 flex items-center justify-center focus:outline-none sm:flex-1 md:flex-1'
@@ -84,12 +84,12 @@ export default function NftDetail() {
                   </div>
                 </RadioGroup>
               </div>
-              <Link href="" passHref>
+              <Link href="https://rarible.com/axoswapio" passHref>
               <button
                 type="submit"
                 className="mt-2 w-full bg-rose rounded-md py-3 px-8 flex items-center justify-center font-PhantomRush text-4xl text-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
               ><Opensea className="h-10 mr-3"/>
-                View details on Opensea
+                View details on Rarible
               </button>
               </Link>
             </form>
