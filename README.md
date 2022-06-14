@@ -1,3 +1,1 @@
-NFT Minting Page# AxoGenesis
-# AxoGenesis
-# AxoGenesis
+# NFT Minting Page
